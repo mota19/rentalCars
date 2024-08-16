@@ -1,0 +1,404 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "classCarCar": "econom",
+      "price": [1000, 1200, 1400, 1600],
+      "weight": 270,
+      "name": "Ford Fiesta 6",
+      "engineType": "gas",
+      "mileagePer100Km": 4,
+      "image": "https://example.com/images/ford-fiesta.jpg"
+    },
+    {
+      "id": 2,
+      "classCar": "econom",
+      "price": [1100, 1300, 1500, 1700],
+      "weight": 280,
+      "name": "Hyundai i10",
+      "engineType": "gas",
+      "mileagePer100Km": 5,
+      "image": "https://example.com/images/hyundai-i10.jpg"
+    },
+    {
+      "id": 3,
+      "classCar": "econom",
+      "price": [1200, 1400, 1600, 1800],
+      "weight": 290,
+      "name": "Toyota Aygo",
+      "engineType": "gas",
+      "mileagePer100Km": 4.5,
+      "image": "https://example.com/images/toyota-aygo.jpg"
+    },
+    {
+      "id": 4,
+      "classCar": "econom",
+      "price": [1300, 1500, 1700, 1900],
+      "weight": 300,
+      "name": "Honda Fit",
+      "engineType": "gas",
+      "mileagePer100Km": 4.2,
+      "image": "https://example.com/images/honda-fit.jpg"
+    },
+    {
+      "id": 5,
+      "classCar": "econom",
+      "price": [1400, 1600, 1800, 2000],
+      "weight": 310,
+      "name": "Volkswagen Polo",
+      "engineType": "diesel",
+      "mileagePer100Km": 3.8,
+      "image": "https://example.com/images/volkswagen-polo.jpg"
+    },
+    {
+      "id": 6,
+      "classCar": "econom",
+      "price": [1500, 1700, 1900, 2100],
+      "weight": 320,
+      "name": "Renault Clio",
+      "engineType": "gas",
+      "mileagePer100Km": 4.5,
+      "image": "https://example.com/images/renault-clio.jpg"
+    },
+    {
+      "id": 7,
+      "classCar": "econom",
+      "price": [1600, 1800, 2000, 2200],
+      "weight": 330,
+      "name": "Kia Picanto",
+      "engineType": "gas",
+      "mileagePer100Km": 5,
+      "image": "https://example.com/images/kia-picanto.jpg"
+    },
+    {
+      "id": 8,
+      "classCar": "econom",
+      "price": [1700, 1900, 2100, 2300],
+      "weight": 340,
+      "name": "Peugeot 208",
+      "engineType": "diesel",
+      "mileagePer100Km": 4.1,
+      "image": "https://example.com/images/peugeot-208.jpg"
+    },
+    {
+      "id": 9,
+      "classCar": "econom",
+      "price": [1800, 2000, 2200, 2400],
+      "weight": 350,
+      "name": "Fiat Panda",
+      "engineType": "gas",
+      "mileagePer100Km": 4.4,
+      "image": "https://example.com/images/fiat-panda.jpg"
+    },
+    {
+      "id": 10,
+      "classCar": "econom",
+      "price": [1900, 2100, 2300, 2500],
+      "weight": 360,
+      "name": "Chevrolet Spark",
+      "engineType": "gas",
+      "mileagePer100Km": 4.7,
+      "image": "https://example.com/images/chevrolet-spark.jpg"
+    },
+    {
+      "id": 11,
+      "classCar": "mid",
+      "price": [2000, 2300, 2600, 2900],
+      "weight": 380,
+      "name": "Toyota Corolla",
+      "engineType": "gas",
+      "mileagePer100Km": 6,
+      "image": "https://example.com/images/toyota-corolla.jpg"
+    },
+    {
+      "id": 12,
+      "classCar": "mid",
+      "price": [2100, 2400, 2700, 3000],
+      "weight": 390,
+      "name": "Honda Civic",
+      "engineType": "gas",
+      "mileagePer100Km": 6.5,
+      "image": "https://example.com/images/honda-civic.jpg"
+    },
+    {
+      "id": 13,
+      "classCar": "mid",
+      "price": [2200, 2500, 2800, 3100],
+      "weight": 400,
+      "name": "Mazda 3",
+      "engineType": "diesel",
+      "mileagePer100Km": 5.8,
+      "image": "https://example.com/images/mazda-3.jpg"
+    },
+    {
+      "id": 14,
+      "classCar": "mid",
+      "price": [2300, 2600, 2900, 3200],
+      "weight": 410,
+      "name": "Hyundai Elantra",
+      "engineType": "gas",
+      "mileagePer100Km": 6.2,
+      "image": "https://example.com/images/hyundai-elantra.jpg"
+    },
+    {
+      "id": 15,
+      "classCar": "mid",
+      "price": [2400, 2700, 3000, 3300],
+      "weight": 420,
+      "name": "Volkswagen Golf",
+      "engineType": "diesel",
+      "mileagePer100Km": 5.6,
+      "image": "https://example.com/images/volkswagen-golf.jpg"
+    },
+    {
+      "id": 16,
+      "classCar": "mid",
+      "price": [2500, 2800, 3100, 3400],
+      "weight": 430,
+      "name": "Ford Focus",
+      "engineType": "gas",
+      "mileagePer100Km": 6.1,
+      "image": "https://example.com/images/ford-focus.jpg"
+    },
+    {
+      "id": 17,
+      "classCar": "mid",
+      "price": [2600, 2900, 3200, 3500],
+      "weight": 440,
+      "name": "Nissan Sentra",
+      "engineType": "gas",
+      "mileagePer100Km": 6.4,
+      "image": "https://example.com/images/nissan-sentra.jpg"
+    },
+    {
+      "id": 18,
+      "classCar": "mid",
+      "price": [2700, 3000, 3300, 3600],
+      "weight": 450,
+      "name": "Chevrolet Cruze",
+      "engineType": "diesel",
+      "mileagePer100Km": 5.9,
+      "image": "https://example.com/images/chevrolet-cruze.jpg"
+    },
+    {
+      "id": 19,
+      "classCar": "mid",
+      "price": [2800, 3100, 3400, 3700],
+      "weight": 460,
+      "name": "Kia Forte",
+      "engineType": "gas",
+      "mileagePer100Km": 6.3,
+      "image": "https://example.com/images/kia-forte.jpg"
+    },
+    {
+      "id": 20,
+      "classCar": "mid",
+      "price": [2900, 3200, 3500, 3800],
+      "weight": 470,
+      "name": "Subaru Impreza",
+      "engineType": "gas",
+      "mileagePer100Km": 6.7,
+      "image": "https://example.com/images/subaru-impreza.jpg"
+    },
+    {
+      "id": 21,
+      "classCar": "business",
+      "price": [3000, 3400, 3800, 4200],
+      "weight": 480,
+      "name": "BMW 3 Series",
+      "engineType": "diesel",
+      "mileagePer100Km": 8,
+      "image": "https://example.com/images/bmw-3-series.jpg"
+    },
+    {
+      "id": 22,
+      "classCar": "business",
+      "price": [3100, 3500, 3900, 4300],
+      "weight": 490,
+      "name": "Audi A4",
+      "engineType": "gas",
+      "mileagePer100Km": 7.5,
+      "image": "https://example.com/images/audi-a4.jpg"
+    },
+    {
+      "id": 23,
+      "classCar": "business",
+      "price": [3200, 3600, 4000, 4400],
+      "weight": 500,
+      "name": "Mercedes-Benz C-classCar",
+      "engineType": "gas",
+      "mileagePer100Km": 7.8,
+      "image": "https://example.com/images/mercedes-c-classCar.jpg"
+    },
+    {
+      "id": 24,
+      "classCar": "business",
+      "price": [3300, 3700, 4100, 4500],
+      "weight": 510,
+      "name": "Lexus IS",
+      "engineType": "gas",
+      "mileagePer100Km": 7.6,
+      "image": "https://example.com/images/lexus-is.jpg"
+    },
+    {
+      "id": 25,
+      "classCar": "business",
+      "price": [3400, 3800, 4200, 4600],
+      "weight": 520,
+      "name": "Jaguar XE",
+      "engineType": "gas",
+      "mileagePer100Km": 8.2,
+      "image": "https://example.com/images/jaguar-xe.jpg"
+    },
+    {
+      "id": 26,
+      "classCar": "business",
+      "price": [3500, 3900, 4300, 4700],
+      "weight": 530,
+      "name": "Volvo S60",
+      "engineType": "gas",
+      "mileagePer100Km": 8,
+      "image": "https://example.com/images/volvo-s60.jpg"
+    },
+    {
+      "id": 27,
+      "classCar": "business",
+      "price": [3600, 4000, 4400, 4800],
+      "weight": 540,
+      "name": "Genesis G70",
+      "engineType": "gas",
+      "mileagePer100Km": 8.1,
+      "image": "https://example.com/images/genesis-g70.jpg"
+    },
+    {
+      "id": 28,
+      "classCar": "business",
+      "price": [3700, 4100, 4500, 4900],
+      "weight": 550,
+      "name": "Alfa Romeo Giulia",
+      "engineType": "gas",
+      "mileagePer100Km": 7.9,
+      "image": "https://example.com/images/alfa-romeo-giulia.jpg"
+    },
+    {
+      "id": 29,
+      "classCar": "business",
+      "price": [3800, 4200, 4600, 5000],
+      "weight": 560,
+      "name": "Infiniti Q50",
+      "engineType": "gas",
+      "mileagePer100Km": 8.4,
+      "image": "https://example.com/images/infiniti-q50.jpg"
+    },
+    {
+      "id": 30,
+      "classCar": "business",
+      "price": [3900, 4300, 4700, 5100],
+      "weight": 570,
+      "name": "Tesla Model 3",
+      "engineType": "electric",
+      "mileagePer100Km": 0,
+      "image": "https://example.com/images/tesla-model-3.jpg"
+    },
+    {
+      "id": 31,
+      "classCar": "premium",
+      "price": [5000, 5500, 6000, 6500],
+      "weight": 600,
+      "name": "Mercedes-Benz S-classCar",
+      "engineType": "diesel",
+      "mileagePer100Km": 10,
+      "image": "https://example.com/images/mercedes-s-classCar.jpg"
+    },
+    {
+      "id": 32,
+      "classCar": "premium",
+      "price": [5100, 5600, 6100, 6600],
+      "weight": 620,
+      "name": "BMW 7 Series",
+      "engineType": "gas",
+      "mileagePer100Km": 9.5,
+      "image": "https://example.com/images/bmw-7-series.jpg"
+    },
+    {
+      "id": 33,
+      "classCar": "premium",
+      "price": [5200, 5700, 6200, 6700],
+      "weight": 640,
+      "name": "Audi A8",
+      "engineType": "diesel",
+      "mileagePer100Km": 9,
+      "image": "https://example.com/images/audi-a8.jpg"
+    },
+    {
+      "id": 34,
+      "classCar": "premium",
+      "price": [5300, 5800, 6300, 6800],
+      "weight": 660,
+      "name": "Lexus LS",
+      "engineType": "gas",
+      "mileagePer100Km": 9.8,
+      "image": "https://example.com/images/lexus-ls.jpg"
+    },
+    {
+      "id": 35,
+      "classCar": "premium",
+      "price": [5400, 5900, 6400, 6900],
+      "weight": 680,
+      "name": "Jaguar XJ",
+      "engineType": "gas",
+      "mileagePer100Km": 9.3,
+      "image": "https://example.com/images/jaguar-xj.jpg"
+    },
+    {
+      "id": 36,
+      "classCar": "premium",
+      "price": [5500, 6000, 6500, 7000],
+      "weight": 700,
+      "name": "Porsche Panamera",
+      "engineType": "gas",
+      "mileagePer100Km": 10.5,
+      "image": "https://example.com/images/porsche-panamera.jpg"
+    },
+    {
+      "id": 37,
+      "classCar": "premium",
+      "price": [5600, 6100, 6600, 7100],
+      "weight": 720,
+      "name": "Tesla Model S",
+      "engineType": "electric",
+      "mileagePer100Km": 0,
+      "image": "https://example.com/images/tesla-model-s.jpg"
+    },
+    {
+      "id": 38,
+      "classCar": "premium",
+      "price": [5700, 6200, 6700, 7200],
+      "weight": 740,
+      "name": "Maserati Quattroporte",
+      "engineType": "gas",
+      "mileagePer100Km": 10.2,
+      "image": "https://example.com/images/maserati-quattroporte.jpg"
+    },
+    {
+      "id": 39,
+      "classCar": "premium",
+      "price": [5800, 6300, 6800, 7300],
+      "weight": 760,
+      "name": "Bentley Flying Spur",
+      "engineType": "gas",
+      "mileagePer100Km": 11,
+      "image": "https://example.com/images/bentley-flying-spur.jpg"
+    },
+    {
+      "id": 40,
+      "classCar": "premium",
+      "price": [5900, 6400, 6900, 7400],
+      "weight": 780,
+      "name": "Rolls-Royce Ghost",
+      "engineType": "gas",
+      "mileagePer100Km": 12,
+      "image": "https://example.com/images/rolls-royce-ghost.jpg"
+    }
+  ]
+}
