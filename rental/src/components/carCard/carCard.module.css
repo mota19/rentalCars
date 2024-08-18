@@ -1,3 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
 .button {
   width: 300px;
   height: 40px;
@@ -10,9 +17,18 @@
   line-height: 25.6px;
 }
 
+.button:hover {
+  background-color: rgba(224, 0, 0, 0.8);
+}
+
+.button:active {
+  background-color: rgba(224, 0, 0, 0.7);
+}
+
 .carBody {
   width: 360px;
   height: 600px;
+  margin: 0 auto;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 30px;
   box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.21);
