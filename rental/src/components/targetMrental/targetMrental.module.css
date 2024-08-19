@@ -27,7 +27,7 @@
 }
 
 .list li::before {
-  content: "✔︎";
+  content: "✔︎ ";
 }
 
 .button {

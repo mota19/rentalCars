@@ -5,7 +5,10 @@ import PopularCar from "./components/PopularCarPage/PopularCar";
 import FailedToLoadItems from "./components/carCard/failedToLoadItems";
 import { carTypeObject } from "./components/types/carCardTypes";
 import Condition from "./components/conditions/condition";
+import AboutUs from "./components/boutUs/aboutUs";
 import { useEffect, useState } from "react";
+import Park from "./components/parkCar/Park";
+import Footer from "./components/Footer/footer";
 
 const App: React.FC = () => {
   const [data, setData] = useState<carTypeObject[]>([]);
@@ -29,15 +32,18 @@ const App: React.FC = () => {
   return (
     <div
       style={{
-        border: "1px solid black",
         width: "100%",
         maxWidth: "1440px",
         margin: "0 auto",
+        backgroundColor: "white",
       }} //do not do it like this better declare a class :)
     >
       <TargeMrental />
       <PopularCar data={data} />
       <Condition />
+      <Park data={data}></Park>
+      <AboutUs></AboutUs>
+      <Footer></Footer>
     </div>
   );
 };

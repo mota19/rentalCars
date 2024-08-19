@@ -42,7 +42,8 @@
   margin-right: 50px;
 }
 
-.ul li::before {
+.ul li {
+  font-weight: 400;
 }
 
 .ulAdvantages {

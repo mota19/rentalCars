@@ -2,7 +2,7 @@ import style from "./condition.module.css";
 
 const Condition: React.FC = () => {
   return (
-    <section style={{ margin: "50px" }}>
+    <section style={{ margin: "50px 50px 0px 50px" }}>
       <h2 className={style.h1}>умови</h2>
       <div className={style.mainSection}>
         <ul className={style.ul}>

@@ -2,6 +2,8 @@ import style from "./header.module.css";
 
 const Header: React.FC = () => {
   return (
+    //краще писати використовючи лише className і в крайньмо випадку використовувати style,
+    //або використовувати tailwind css або інший фреймворк
     <div className={style.heder}>
       <p
         className={style.targeMrental}
